@@ -85,6 +85,9 @@ module.exports = env => {
       open: true,
       hot: true,
       port: 9000,
+      historyApiFallback: {
+        disableDotRule: true
+      }
     }
   };
 };
